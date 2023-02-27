@@ -23,7 +23,7 @@ const Banner = () => {
         </div>
         <h1 className="banner__description">
           {truncate(
-            " This is a test descriptionlorem100 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore ex veniam exercitationem",
+            " This is a test descriptionlorem100 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore ex veniam exercitationem adipisicing elit. Labore ex i like to play after that we went to eat food and  ",
             150
           )}
         </h1>
