@@ -45,3 +45,7 @@
 .signInScreen > form > h4 > span {
   color: white;
 }
+.signUpScreen__link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
