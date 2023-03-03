@@ -1,6 +1,6 @@
 //typicall we would stor in .env
 
-const API_KEY = "76164a4e042e9baa4e18583e65243390";
+const API_KEY = "76164a4e042e9baa4e18583e6524339";
 
 const requests = {
   fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
