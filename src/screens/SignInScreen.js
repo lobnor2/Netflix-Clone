@@ -1,4 +1,7 @@
-import { createUserWithEmailAndPassword } from "firebase/auth";
+import {
+  createUserWithEmailAndPassword,
+  signInWithEmailAndPassword,
+} from "firebase/auth";
 import React, { useRef, useState } from "react";
 import { auth } from "../firebase";
 
@@ -26,9 +29,22 @@ const SignInScreen = () => {
       .catch((error) => {
         alert(error.message);
       });
+    emailRef.current.value = "";
+    passwordRef.current.value = "";
   };
   const signIn = (e) => {
     e.preventDefault();
+    signInWithEmailAndPassword(
+      auth,
+      emailRef.current.value,
+      passwordRef.current.value
+    )
+      .then((signin) => {
+        console.log(signin);
+      })
+      .catch((error) => {
+        console.log(error.message);
+      });
   };
 
   return (
