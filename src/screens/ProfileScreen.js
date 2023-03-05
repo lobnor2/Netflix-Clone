@@ -19,7 +19,7 @@ const ProfileScreen = () => {
           <div className="profileScreen__details">
             <h2>lnorbu151@gmail.com</h2>
             <div className="profileScreen__plans">
-              <h3>Plans</h3>
+              {/* <h3>Plans</h3> */}
               <button
                 onClick={() => auth.signOut()}
                 className="profileScreen__signOut"

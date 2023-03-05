@@ -16,11 +16,12 @@
   display: flex;
   border: 1px solid white;
   padding: 5px;
+  height: 100px;
 }
 .profileScreen__details {
-  border: 1px solid white;
+  /* border: 1px solid white; */
   color: white;
-  margin-left: 25px;
+  margin-left: 20px;
   flex: 1;
 }
 
@@ -28,7 +29,7 @@
   background-color: gray;
   padding: 15px;
   font-size: 15px;
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
 .profileScreen__body > h1 {
@@ -39,16 +40,16 @@
 }
 .profileScreen__info > img {
   /* width: 100px; */
-  height: 100px;
+  height: 100%;
 }
 .profileScreen__plans > h3 {
   border-bottom: 1px solid #282c2d;
   padding-bottom: 10px;
 }
 .profileScreen__signOut {
-  padding: 10px 20px;
+  padding: 10px;
   font-size: 1rem;
-  margin-top: 5%;
+  margin-top: 15px;
   width: 100%;
   color: white;
   background-color: #e50914;
